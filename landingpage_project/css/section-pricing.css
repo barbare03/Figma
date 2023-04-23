@@ -1,0 +1,80 @@
+#pricing h1 {
+  font-weight: 700;
+  font-size: 86px;
+  line-height: 88px;
+  margin-bottom: 30px;
+  font-family: 'Playfair Display';
+  color: #2F2E41;
+  margin-left: 150px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.pricing-plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  background: rgba(236, 235, 255, 0.3);
+  border-radius: 2px;
+  width: 30%;
+}
+
+.pricing-plan:hover {
+  background-color: #6C63FF;
+  transform: scale(1.2, 1.2);
+}
+
+.package {
+  font-size: 20px;
+  line-height: 10px;
+  color: #717082;
+}
+
+
+.pricing-plan:hover .package {
+  color: white;
+}
+
+.package-cost {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #2F2E41;
+}
+
+.pricing-plan:hover .package-cost {
+  color: white;
+}
+
+.package-cost span {
+  font-size: 20px;
+}
+
+.pricing-plan button {
+  background-color: white;  
+  border: 2px solid #6C63FF;
+  font-size: 18px;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 10px;
+  color: #6C63FF;
+  font-weight: 700;
+}
+
+.pricing-plan:hover button {
+  cursor: pointer;
+}

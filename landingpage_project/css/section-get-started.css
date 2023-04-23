@@ -1,0 +1,29 @@
+#get-started {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+#get-started h1{
+  font-weight: 700;
+  font-size: 86px;
+  line-height: 88px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display';
+  color: #2F2E41;
+}
+
+#get-started p {
+  color: #9893A3;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 30px;
+}
+
+#hero {
+  max-width: 60%;
+  margin-left: 300px;
+}

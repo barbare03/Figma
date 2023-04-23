@@ -1,0 +1,47 @@
+body {
+  background-color: white;
+  margin: 0;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  height: 200vh;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 93vw;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.links {
+  padding: 10px;
+  color: #9893A3;
+  font-size: 16px;
+}
+
+.links:hover {
+  cursor: pointer;
+  font-weight: 700;
+  color: #2F2E41;
+  border-bottom: 3px solid #9E99FF;
+}
+
+#log-in, .get-started-btn {
+  background-color: #6C63FF;
+  border: 2px solid #6C63FF;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-weight: 700;
+}
+
+#log-in:hover, .get-started-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #6C63FF;
+}

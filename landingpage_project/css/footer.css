@@ -1,0 +1,59 @@
+#footer {
+  background-color: rgba(236, 235, 255, 0.6);
+  padding-top: 200px;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.footer-top {
+  margin: 0 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+} 
+
+.column h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2F2E41;
+}
+
+.column p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #717082;
+}
+
+.column p:hover {
+  cursor: pointer;
+  color: #282734;
+}
+
+.column button {
+  background-position: center;
+  height: 32px;
+  width: 32px;
+  border: none;
+  margin-right: 10px;
+}
+
+#Facebook {
+  background-image: url(facebook.png);
+}
+
+#Twitter {
+  background-image: url(twitter.png);
+}
+
+#Linkedin {
+  background-image: url(linkedin.png);
+}
+
+.footer-bottom img, .footer-bottom p {
+  display: inline-block;
+}
+
+.footer-bottom p {
+  align-self: self-end;
+}
